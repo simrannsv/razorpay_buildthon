@@ -1,4 +1,5 @@
 # Guarded Upsell Agent — Razorpay AI Builder Buildathon (Track 01: AI Growth & Agentic Commerce)
+Live Demo App: https://razorpaybuildthon-ji5ccs795ue6udqfxjgfiq.streamlit.app/
 
 ## The problem
 
@@ -79,6 +80,7 @@ The gate itself is roughly **100,000x faster** than either network-bound stage. 
 ## Tech stack
 
 - Python
+- Streamlit (interactive frontend UI & Cloud deployment)
 - Groq (`openai/gpt-oss-120b`) for the upsell proposal LLM
 - Razorpay Python SDK (test-mode order creation)
 - python-dotenv for credential management
